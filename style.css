@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif; 
+}
+
+.main-sidebar {
+    background-color: #424874;
+}
+
+.fas .fa-bars {
+    color: #424874;
+}
+
+h1 {
+    color: #424874;
+    font-weight: 800;
+}
+
+.small-box {
+    background-color: #F4EEFF;
+    box-shadow: 3px 3px 1px #A6B1E1;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.inner {
+    text-align: center;
+}
+
+.inner p {
+    color: #424874;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.sidebar-p {
+    color: #F4EEFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav .nav-treeview .nav-item {
+    background-color: #F4EEFF;
+    border-radius: 0.25rem;
+}
+
+.nav .nav-treeview .nav-item .nav-link p {
+    color: #424874;
+    font-size: 14px;
+    font-weight: 500;
+}
+                    
+.main-sidebar .brand-link .logo-text {
+    color: #F4EEFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sidebar .info .user {
+    color: #F4EEFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main-header .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    color: #424874;
+}
+
+.main-footer p {
+    color: #424874;
+    font-weight: 300;
+}
+.main-footer a {
+    color: #424874;
+    font-weight: 600;
+ }
+
+.nav-link:hover {
+    background-color: #A6B1E1;
+}
+
+.content .card {
+    border-radius: 10px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0px 0px;
+    background: #A6B1E1;
+    padding: 10px;
+}
+
+.card-title {
+    color: #424874;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-body {
+    padding: 10px;
+}

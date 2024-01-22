@@ -1,0 +1,36 @@
+PROGRAM teknik_winsorizing
+
+DEKLARASI
+import file nya
+tampung file nya sbg array
+hitung mean
+hitung std
+hitung upper limit
+hitung lower limit
+
+ALGORITMA
+read    array
+        upper limit
+        lower limit
+if array > upper limit 
+    then array = upper limit
+elseif array < lower limit 
+    then array = lower limit
+print(array)
+
+
+
+PROGRAM teknik_winsorizing
+
+DEKLARASI
+dataframe : array
+mean, std, upper_limit, lower_limit : float
+
+ALGORITMA
+read (dataframe, upper_limit, lower_limit)
+if dataframe > upper_limit then
+    dataframe = upper_limit
+elseif dataframe < lower_limit then
+    dataframe = lower_limit
+endif
+write(dataframe)
